@@ -1,0 +1,10 @@
+name: workflow
+
+on: [push]
+
+jobs:
+  main:
+    run-ons: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dranoel65/exercise4_action@main
